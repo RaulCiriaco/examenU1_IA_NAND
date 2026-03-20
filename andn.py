@@ -1,0 +1,23 @@
+# ...existing code...
+def train(perceptron, tablaNand, rangoAprendizaje=0.1, generaciones=20):
+    print("Entrenamiento")
+    print("Pesos iniciales: ")
+    ...
+    for generacion in range(generaciones):
+        ...
+    print("Fin de entrenamiento")
+# ...existing code...
+
+def prueba(perceptron, tablaNand):
+    print("Prueba")
+    print("Resultados Finales")
+    ...
+# ...existing code...
+
+def main():
+    print("Modelo")
+    tablaNand = [...]
+    perceptron = Perceptron()
+    train(perceptron, tablaNand, rangoAprendizaje=0.1, generaciones=17)
+    prueba(perceptron, tablaNand)
+# ...existing code...
